@@ -59,7 +59,7 @@ export default function Portfolio() {
       <div className="relative z-10 px-6 md:px-16 py-10">
         {/* Hero Section */}
         <section className="grid md:grid-cols-2 gap-10 items-center min-h-[90vh]">
-          <div className="flex justify-center md:justify-start">
+          <div className="flex flex-col items-center md:items-start gap-8">
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-br from-cyan-500/20 to-purple-500/20 rounded-full blur-2xl"></div>
               <img
@@ -67,6 +67,25 @@ export default function Portfolio() {
                 alt="Sedhu Madhavan"
                 className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-cyan-400/30 shadow-2xl"
               />
+            </div>
+
+            <div className="grid grid-cols-2 gap-5 w-full max-w-sm">
+              <div className="bg-white/5 border border-white/10 rounded-3xl p-6 backdrop-blur-xl shadow-2xl">
+                <h3 className="text-4xl font-bold text-cyan-400">4+</h3>
+                <p className="text-gray-400 mt-2">Years Experience</p>
+              </div>
+              <div className="bg-white/5 border border-white/10 rounded-3xl p-6 backdrop-blur-xl shadow-2xl">
+                <h3 className="text-4xl font-bold text-purple-400">5+</h3>
+                <p className="text-gray-400 mt-2">Projects</p>
+              </div>
+              <div className="bg-white/5 border border-white/10 rounded-3xl p-6 backdrop-blur-xl shadow-2xl">
+                <h3 className="text-4xl font-bold text-green-400">DS</h3>
+                <p className="text-gray-400 mt-2">Machine Learning</p>
+              </div>
+              <div className="bg-white/5 border border-white/10 rounded-3xl p-6 backdrop-blur-xl shadow-2xl">
+                <h3 className="text-4xl font-bold text-pink-400">AI</h3>
+                <p className="text-gray-400 mt-2">Computer Vision</p>
+              </div>
             </div>
           </div>
 
